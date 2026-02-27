@@ -10,13 +10,13 @@ override.conf should be in this path when using wireplumber:
 - ~/.config/systemd/user/wireplumber.service.d/override.conf
 
 ### .*rc
-Should be in your /home/<user>/ (~/)
+Should be in your /home/[user]/ (~/)
 
 ### Folders
-All folders in this repository should be in ~/.config/<foldername>/<content>
+All folders in this repository should be in ~/.config/[foldername]/[content]
 
 For example, for waybar: 
-- /home/<user>/waybar/scripts/*
-- /home/<user>/waybar/style.css
-- /home/<user>/waybar/config || or || /home/<user>/waybar/config.jsonc
+- /home/[user]/waybar/scripts/*
+- /home/[user]/waybar/style.css
+- /home/[user]/waybar/config || or || /home/[user]/waybar/config.jsonc
 
