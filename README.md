@@ -14,6 +14,7 @@ Should be in your /home/<user>/ (~/)
 
 ### Folders
 All folders in this repository should be in ~/.config/<foldername>/<content>
+
 For example, for waybar: 
 - /home/<user>/waybar/scripts/*
 - /home/<user>/waybar/style.css
