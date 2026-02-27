@@ -1,0 +1,77 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+}
+
+window#waybar {
+    background: rgba(21, 18, 27, 0.8); /* Fondo oscuro transparente */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    color: #cdd6f4;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #89b4fa;
+}
+
+#workspaces button.active {
+    color: #f5c2e7;
+    border-bottom: 3px solid #f5c2e7;
+}
+
+#clock, #pulseaudio, #cpu, #memory, #network {
+    padding: 0 10px;
+    margin: 6px 2px;
+    border-radius: 8px;
+    background: #313244;
+}
+
+#clock { color: #89dceb; }
+#pulseaudio { color: #f9e2af; }
+#cpu { color: #a6e3a1; }
+
+#custom-power {
+    background-color: #f38ba8; /* Un rojo suave estilo Catppuccin */
+    color: #11111b;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin: 4px 2px;
+    font-weight: bold;
+    min-width: 20px;
+}
+
+#tray {
+    margin-right: 10px;  /* Espacio a la derecha del bloque */
+    margin-left: 10px;   /* Espacio a la izquierda del bloque */
+}
+
+#tray menu {
+    background: #1a1b26; /* Color de fondo del menú (estilo Cyberpunk/Tokyo Night) */
+    color: #c0caf5;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+#custom-launcher {
+    font-size: 20px;
+    color: #bb9af7; 
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#custom-launcher:hover {
+    color: #9ece6a;
+}
+
+#custom-notification {
+    margin-right: 12px; /* Esto lo separa del reloj */
+    margin-left: 5px;
+    padding: 0 10px;
+    color: #b4befe; /* Un color azul-morado clarito */
+}
